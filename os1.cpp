@@ -7,7 +7,7 @@ printf("\nEnter number of processes: ");
 scanf("%d",&m); int at[m]; int bt[m],bt1[m]; int wt[m]; int tarrival[m]; int tq1=3; int tq2=6; int avgT=0; int avgW=0;
 printf("\nEnter arival time of processes:\n");
 for(i=0;i<m;i++)
-{
+
  printf("For processes %d :",i+1); scanf("%d",&at[i]);
 }
 printf("\nEnter burst time for processes:\n");
