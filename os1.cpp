@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-int i,
+int i,m;
 printf("\nEnter number of processes: ");
 scanf("%d",&m); int at[m]; int bt[m],bt1[m]; int wt[m]; int tarrival[m]; int tq1=3; int tq2=6; int avgT=0; int avgW=0;
 printf("\nEnter arival time of processes:\n");
