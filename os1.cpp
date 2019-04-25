@@ -29,7 +29,7 @@ else
 bt[i]=bt[i]-tq1;
 printf("For process %d\n",i+1);
 printf("Left Burst time= %d\n",bt[i]);
-
+}
 }
 printf("\n                              2nd ITERATION (INTERUPTION = 6)                                \n");
 for(i=0;i<m;i++)
